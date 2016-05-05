@@ -741,13 +741,14 @@ function marketOrder(market){
         france: 9,
         belgium: 10,
         amsterdam: 11,
-        commodities: 12,
-        metals: 13,
-        energy: 14,
-        volidx: 15,
-        random_index: 16,
-        random_daily: 17,
-        random_nightly: 18
+        otc_stock: 12,
+        commodities: 13,
+        metals: 14,
+        energy: 15,
+        volidx: 16,
+        random_index: 17,
+        random_daily: 18,
+        random_nightly: 19
     };
     return order[market];
 }

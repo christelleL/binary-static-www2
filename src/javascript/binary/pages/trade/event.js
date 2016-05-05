@@ -163,7 +163,7 @@ var TradingEvents = (function () {
                     processForgetTicks();
                     // get ticks for current underlying
                     Tick.request(underlying);
-                    displayTooltip('', underlying);
+                    displayTooltip(Defaults.get('market'), underlying);
                 }
             });
             if (isJapanTrading()) {
