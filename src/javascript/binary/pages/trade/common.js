@@ -742,14 +742,17 @@ function marketOrder(market){
           france         : 10,
           belgium        : 11,
           amsterdam      : 12,
-          otc_stock      : 13,
-        commodities      : 14,
-          metals         : 15,
-          energy         : 16,
-        volidx           : 17,
-          random_index   : 18,
-          random_daily   : 19,
-          random_nightly : 20
+          us_otc_stock   : 13,
+          uk_otc_stock   : 14,
+          ge_otc_stock   : 15,
+          au_otc_stock   : 16,
+        commodities      : 17,
+          metals         : 18,
+          energy         : 19,
+        volidx           : 20,
+          random_index   : 21,
+          random_daily   : 22,
+          random_nightly : 23
     };
     return order[market];
 }
@@ -779,7 +782,7 @@ function displayTooltip(market, symbol){
       app.hide();
       tip.hide();
     }
-    if (market.match(/^otc_index/) || symbol.match(/^OTC_/) || market.match(/^otc_stock/) || markets.by_symbol(symbol).submarket.name.match(/^otc_stock/)){
+    if (market.match(/^otc_index/) || symbol.match(/^OTC_/) || market.match(/otc_stock/) || markets.by_symbol(symbol).submarket.name.match(/otc_stock/)){
         tip.show();
         tip.setAttribute('target','/get-started/otc-indices-stocks');
     }
