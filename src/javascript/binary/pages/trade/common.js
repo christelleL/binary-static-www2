@@ -729,26 +729,27 @@ function durationOrder(duration){
 function marketOrder(market){
     'use strict';
     var order = {
-        forex: 0,
-        major_pairs: 1,
-        minor_pairs: 2,
-        smart_fx: 3,
-        indices: 4,
-        asia_oceania: 5,
-        europe_africa: 6,
-        americas: 7,
-        stocks: 8,
-        france: 9,
-        belgium: 10,
-        amsterdam: 11,
-        otc_stock: 12,
-        commodities: 13,
-        metals: 14,
-        energy: 15,
-        volidx: 16,
-        random_index: 17,
-        random_daily: 18,
-        random_nightly: 19
+        forex            : 0,
+          major_pairs    : 1,
+          minor_pairs    : 2,
+          smart_fx       : 3,
+        indices          : 4,
+          asia_oceania   : 5,
+          europe_africa  : 6,
+          americas       : 7,
+          otc_index      : 8,
+        stocks           : 9,
+          france         : 10,
+          belgium        : 11,
+          amsterdam      : 12,
+          otc_stock      : 13,
+        commodities      : 14,
+          metals         : 15,
+          energy         : 16,
+        volidx           : 17,
+          random_index   : 18,
+          random_daily   : 19,
+          random_nightly : 20
     };
     return order[market];
 }
