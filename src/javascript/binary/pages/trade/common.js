@@ -629,7 +629,7 @@ function getDefaultMarket() {
     'use strict';
     var mkt = Defaults.get('market');
     var markets = Symbols.markets(1);
-    if (!mkt || !markets[mkt] || !markets[mkt].is_active) {
+    if (!mkt || !markets[mkt]) {
         var sorted_markets = Object.keys(Symbols.markets()).filter(function(v){return markets[v].is_active;}).sort(function(a, b) {
             return getMarketsOrder(a) - getMarketsOrder(b);
         });
@@ -783,6 +783,7 @@ function displayTooltip(market, symbol){
       tip.hide();
     }
     if (market.match(/^otc_index/) || symbol.match(/^OTC_/) || market.match(/otc_stock/) || markets.by_symbol(symbol).submarket.name.match(/otc_stock/)){
+    if (market.match(/^otc_index/) || symbol.match(/^OTC_/) || market.match(/^otc_stock/)){    
         tip.show();
         tip.setAttribute('target','/get-started/otc-indices-stocks');
     }

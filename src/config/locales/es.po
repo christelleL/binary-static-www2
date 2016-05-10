@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-02 11:14+0000\n"
-"Last-Translator: cameliagf <cameliagf@yahoo.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/binary/static/es/>\n"
+"PO-Revision-Date: 2016-05-09 20:48+0000\n"
+"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
+"Language-Team: Spanish "
+"<https://hosted.weblate.org/projects/binary/static/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -160,8 +161,6 @@ msgstr "%1 está totalmente basado en la Web y no requiere la instalación de ni
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
-#| msgid "%1is looking to recruit highly skilled, experienced designers who are passionate about developing attractive visuals for both online and offline applications."
 msgid "%1 is looking to recruit highly skilled, experienced designers who are passionate about developing attractive visuals for both online and offline applications."
 msgstr "%1 busca contratar diseñadores altamente calificados y con experiencia, a los que les apasione desarrollar contenido visual atractivo para aplicaciones online y offline."
 
@@ -289,12 +288,12 @@ msgstr "Los índices continuos de %1 son el Índice de Volatilidad 25, el Índic
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/otc_indices_stocks.html.haml:1
 msgid "%1's OTC Indices and stocks are sourced from the over-the-counter market and provide you with an alternative means of trading stock indices and stocks - available from sources outside of the centralised exchanges."
-msgstr ""
+msgstr "Los índices OTC y las acciones de de %1 provienen del mercado extrabursátil y le proporcionan un medio alternativo de comerciar con índices bursátiles y acciones - de fuentes fuera de los intercambios centralizados."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/otc_indices_stocks.html.haml:1
 msgid "%1's OTC Indices and stocks offer the benefit of real-time charts and pricing. Enjoy even more exciting opportunities to trade our featured market indices and stocks through this new real-time offering."
-msgstr ""
+msgstr "Los indices OTC y las acciones de %1 ofrecen el beneficio de precios y gráficos en tiempo real. Disfrute de más oportunidades interesantes  para comerciar con nuestros índices bursátiles y acciones recomendadas a través de esta nueva oferta en tiempo real."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/spread_bets.html.haml:1
@@ -406,12 +405,10 @@ msgid "* This contract was affected by a corporate action event. Please find det
 msgstr "* Este contrato ha sido afectado por una acción corporativa. Por favor, mire los detalles en la sección de acción corporativa."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:393
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticate.html.tt:20
 msgid "- A scanned copy of a utility bill or bank statement (no more than 3 months old)."
 msgstr "- Una copia escaneada de un extracto bancario o una factura que muestra su dirección residencial actual (que no sea más antigua de 3 meses)."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:391
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticate.html.tt:14
 msgid "- A scanned copy of your passport, driving licence (provisional or full) or identity card, showing your name and date of birth."
 msgstr "- Una copia escaneada de su pasaporte, el carnet de conducción actual (provisional o completo) o de la tarjeta de identidad que muestra su nombre, apellido y fecha de nacimiento."
 
@@ -685,25 +682,6 @@ msgstr ""
 "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Estimado Cliente,</p><p>Por favor ayúdenos a verificar su identidad introduciendo el siguiente token de verificación en el formulario de retirada de pago:<p><span style=\"background: #f2f2f2; padding: 10px;\">\n"
 "%1</span></p></p>"
 
-#. (purpose, code)
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/email/send_verificationws.html.tt:1
-msgid ""
-"<p style='font-weight: bold; margin-bottom: 0;'>Thanks for signing up for a virtual account!</p>\n"
-"<p style='margin-bottom: 0; margin-top: 0;'>Enter the following verification token into the form to %1:\n"
-"  <p style='margin-bottom: 0; margin-top: 0;'>\n"
-"    <span style='background: #f2f2f2; padding: 10px;'>%2</span>\n"
-"  </p>\n"
-"</p>\n"
-"<p style='margin-top: 0;'>Enjoy trading with us on Binary.com.</p>\n"
-msgstr ""
-"<p style='font-weight: bold; margin-bottom: 0;'>¡Gracias por crear una cuenta virtual!</p>\n"
-"<p style='margin-bottom: 0; margin-top: 0;'>Introduzca el siguiente token de verificación en el formulario para %1:\n"
-"  <p style='margin-bottom: 0; margin-top: 0;'>\n"
-"    <span style='background: #f2f2f2; padding: 10px;'>%2</span>\n"
-"  </p>\n"
-"</p>\n"
-"<p style='margin-top: 0;'>Disfrute comerciando con nosotros en Binary.com.</p>\n"
-
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/faq.html.tt:73
 msgid ""
 "<p><strong>Detailed report</strong>: The detailed report shows you your detailed traffic and income statistics. Use the filters and column selectors to break down your reporting as desired.</p>\n"
@@ -867,7 +845,6 @@ msgid "<strong>IMPORTANT DISCLAIMER</strong> - %1 is not affiliated with any of 
 msgstr "<strong>EXENCIÓN DE RESPONSABILIDAD IMPORTANTE</strong> - %1 no está afiliado con ninguno de los agentes de pagos previamente citados. Cada agente de pagos opera como un proveedor de servicios independiente y no está respaldado, garantizado ni aprobado de ninguna otra manera por %1. LOS CLIENTES TRATAN CON LOS AGENTES DE PAGOS BAJO SU PROPIO RIESGO. Se aconseja a los clientes que comprueben las credenciales de los agentes de pagos antes de enviarles dinero. %1 no será bajo ninguna circunstancia responsabilizado por las transacciones efectuadas entre los clientes y los agentes de pagos."
 
 #. (website)
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_list.html.tt:32
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:70
 msgid "<strong>IMPORTANT DISCLAIMER</strong> - %1 is not affiliated with any of the payment agents listed above. Each payment agent operates as an independent service provider and is not endorsed, guaranteed or otherwise approved by %1. CUSTOMERS DEAL WITH PAYMENT AGENTS AT THEIR SOLE RISK AND PERIL. Customers are advised to check the credentials of payment agents before sending them any money. %1 shall not in any circumstance be held responsible for transactions made between customers and payment agents."
 msgstr "<strong>IMPORTANTE EXENCIÓN DE RESPONSABILIDAD</strong> - %1 no está afiliado con ninguno de los agentes de pagos previamente citados. Cada agente de pagos opera como un proveedor de servicios independiente y no está respaldado, garantizado ni aprobado de cualquier otra manera por %1. LOS CLIENTES TRATAN CON LOS AGENTES DE PAGOS BAJO SU PROPIO RIESGO. Se aconseja a los clientes que comprueben las credenciales de los agentes de pagos antes de enviarles dinero. %1 no será bajo ninguna circunstancia responsabilizado por las transacciones efectuadas entre los clientes y los agentes de pagos."
@@ -1480,7 +1457,7 @@ msgstr "Todas las llamadas son grabadas con fines de entrenamiento y vigilancia"
 msgid "All credit card details are submitted directly to the Visa/Mastercard network using the latest SSL encryption technology, in accordance with bank policies."
 msgstr "Todos los detalles de la tarjeta de crédito son enviados directamente a la red de Visa/Mastercard utilizando la más moderna tecnología de encriptado SSL, de conformidad con la política de los bancos."
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/static.html.tt:6
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/static.html.tt:2
 msgid "All markets are closed now. Please try again later."
 msgstr "Todos los mercados están cerrados ahora. Inténtelo más tarde."
 
@@ -1683,7 +1660,6 @@ msgid "Apply a meticulous eye for detail in proofreading the content that appear
 msgstr "Estar muy atento a los detalles al revisar el contenido que aparece en la página web de la compañía, el blog, los medios de comunicación social y los materiales de marketing."
 
 #. (website, apply_payment_agent_url)
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_list.html.tt:29
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:67
 msgid "Apply to become a %1 <a class=\"pjaxload\" href=\"%2\">payment agent</a>."
 msgstr "Aplicar para convertirse en un <a class=\"pjaxload\" href=\"%2\">agente de pagos</a> de %1."
@@ -1794,13 +1770,15 @@ msgstr "Siempre que siga estos Términos, le otorgamos una licencia limitada, no
 msgid "As our DevOps Manager/Team Lead, you'll be responsible for the training, development and direction of a world class Linux-based Systems Administration team."
 msgstr "Como el Gestor/Jefe del Equipo de las Operaciones de Desarrollo, será responsable de la formación, el desarrollo y la instrucción de un equipo de clase mundial de administración de sistemas basados en Linux."
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/static.html.tt:3
-msgid "As part of a re-branding exercise, the Random Indices are renamed to Volatility Indices. The indices remain the same and you may continue trading as usual. <a href=\"https://blog.binary.com/random-indices-renamed-to-volatility-indices/\" target=\"_blank\">Read more</a>."
-msgstr "Como parte de un ejercicio de re-branding, los Índices Random son renombrados a Índices de Volatilidad. Los índices siguen siendo los mismos y usted puede continuar operando como siempre.<a href=\"https://blog.binary.com/random-indices-renamed-to-volatility-indices/\" target=\"_blank\">Leer más</a>."
-
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/tour.html.haml:1
 msgid "As soon as you click on the ‘PURCHASE’ button, your trade registers in your account. The price of your trade continues to update in real time."
 msgstr "En cuanto haga clic en el botón \"COMPRAR\", su transacción se registra en su cuenta. El precio de su transacción se sigue actualizando en tiempo real."
+
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/asian.html.tt:10
+msgid "Asian contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
+msgstr ""
+"Los contratos asiáticos se reembolsará al precio de compra si el contrato no "
+"termina en 5 minutos."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/winning/asian.html.tt:1
 msgid "Asian options settle by comparing the <strong>last tick</strong> with the average spot over the period."
@@ -1821,7 +1799,7 @@ msgstr "Activo"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Menu.pm:154
 #: /home/git/regentmarkets/bom-web/lib/BOM/Web/Static.pm:432
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2651
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2669
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/footer.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/haml/resources/index.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/footer.html.tt:81
@@ -1891,14 +1869,9 @@ msgstr "Autenticar"
 msgid "Authenticate your account"
 msgstr "Autenticar su cuenta"
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticate.html.tt:2
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticatews.html.tt:2
 msgid "Authentication"
 msgstr "Autenticación"
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticate.html.tt:39
-msgid "Authentication of your account is not required at this time.  We will notify you by email if authentication is required."
-msgstr "La autenticación de su cuenta no es necesaria en este momento. Le notificaremos por correo electrónico si se requiere autenticación."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:224
 msgid "Authorise your account."
@@ -2032,10 +2005,6 @@ msgstr "Las barreras deberían estar a uno de los lados de la posición actual."
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/risk_disclaimer.html.tt:29
 msgid "Before we open an account for you to trade or invest in Investment Products with BIEL, we are required to make an assessment of whether the Investment Products or services you have chosen are appropriate for you, and to warn you if, on the basis of the information you provide to us, any such product or service is not appropriate. Any decision to open an account and to use our products or services is yours. It is your responsibility to understand the risks involved with our products or services."
 msgstr "Antes de abrir una cuenta para poder operar o invertir en productos de inversión con BIEL, tenemos la obligación de hacer una evaluación de si los productos o servicios de inversión que ha elegido son apropiados para usted, y de advertirle, basándonos en la la información que usted nos proporciona, si un producto o servicio es adecuado o no para usted. Cualquier decisión de abrir una cuenta y utilizar nuestros productos o servicios es suya. Es su responsabilidad entender los riesgos involucrados con nuestros productos o servicios."
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/doughflow_currency_choice.html.tt:2
-msgid "Before you proceed..."
-msgstr "Antes de continuar..."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/payment_agent.html.haml:1
 msgid "Benefits of being a Payment Agent"
@@ -2375,7 +2344,7 @@ msgid "Buy Price"
 msgstr "Precio de compra"
 
 #. (to_monetary_number_format($stake_min, 1)
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:1652
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:1653
 msgid "Buy price must be between %1 and %2."
 msgstr "El precio de compra tiene que ser entre %1 y %2."
 
@@ -2548,7 +2517,6 @@ msgstr "Eche un vistazo a nuestros informes de mercado diarios escritos por Dave
 msgid "Check out some technical terms before you start."
 msgstr "Eche un vistazo a algunos de los términos técnicos antes de empezar."
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_list.html.tt:7
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:8
 msgid "Check out the payment methods accepted by the payment agents in the list below."
 msgstr "Compruebe los métodos de pago admitidos por los agentes de pagos en la lista a continuación."
@@ -2634,7 +2602,6 @@ msgstr "Seleccione el mercado, el precio objetivo, el período de tiempo y cuán
 msgid "Choose the market, the time period, and how much you wish to win."
 msgstr "Seleccione el mercado, el período de tiempo y cuánto desea ganar."
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_list.html.tt:8
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:9
 msgid "Choose the payment method you'd like to use."
 msgstr "Elija la forma de pago que desea utilizar."
@@ -2795,12 +2762,10 @@ msgstr "Comisión (%) que desea por los retiros"
 msgid "Commission Rates"
 msgstr "Tarifas de comisión"
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/available_payment_agents_list.html.tt:16
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:34
 msgid "Commission on deposits"
 msgstr "Comisión por depósitos"
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/available_payment_agents_list.html.tt:20
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:38
 msgid "Commission on withdrawals"
 msgstr "Comisión por retiros"
@@ -2869,10 +2834,8 @@ msgid "Compliance with and Amendments to These Terms"
 msgstr "Cumplimiento con y Modificaciones de Estos Términos"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:23
-#, fuzzy
-#| msgid "Comply with the applicable laws, rules, and regulations (including, but not limited to, advertising laws, rules, and regulations) of the jurisdiction(s) in which you operate or target your business."
 msgid "Comply with the applicable laws, rules, and regulations (including, but not limited to, advertising, data protection and privacy laws, rules, and regulations) of the jurisdiction(s) in which you operate or target your business."
-msgstr "Cumplir con las leyes, reglas y regulaciones aplicables (incluyendo pero no limitado a, regulaciones, normas y leyes de publicidad) de la jurisdicción en el que opera o que es objetivo de su negocio."
+msgstr "Cumplir con las leyes, reglas y regulaciones aplicables (incluyendo pero no limitado a, regulaciones, normas y leyes de privacidad y protección de datos de publicidad) de la jurisdicción en el que opera o en la  que centra su negocio."
 
 #: /home/git/regentmarkets/bom-web/lib/BOM/Web/Static.pm:132
 msgid "Computer system and method for speculating on a financial market"
@@ -2933,7 +2896,6 @@ msgstr "Contacto"
 msgid "Contact Us"
 msgstr "Contáctenos"
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_list.html.tt:9
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:10
 msgid "Contact the payment agent directly for more information on how to transfer money to them."
 msgstr "Póngase en contacto con el agente de pago directamente para obtener más información sobre cómo hacer una transferencia de dinero a través de él."
@@ -3009,7 +2971,7 @@ msgstr "En estos momentos, no es posible vender el contrato."
 msgid "Contract expired"
 msgstr "El contrato expiró"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2365
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2368
 msgid "Contract has already expired."
 msgstr "Ya pasó la hora del inicio del contrato."
 
@@ -3017,11 +2979,11 @@ msgstr "Ya pasó la hora del inicio del contrato."
 msgid "Contract is not started yet"
 msgstr "El contrato no ha comenzado todavía"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:1649
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:1650
 msgid "Contract market price is too close to final payout."
 msgstr "El precio del mercado del contrato está demasiado cerca del pago final."
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2422
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2425
 msgid "Contract must expire during trading hours."
 msgstr "El contrato debe acabar durante el horario operativo del mercado."
 
@@ -3060,31 +3022,18 @@ msgid "Contracts may not expire on a weekend; therefore the expiry date of a con
 msgstr "Los contratos no pueden expirar durante un fin de semana; por lo tanto la fecha de vencimiento de un contrato se puede aplazar al siguiente lunes en caso de que la fecha de vencimiento de un contrato caiga en un sábado o domingo."
 
 #. ($self->underlying->translated_display_name)
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2380
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2383
 msgid "Contracts on %1 with duration more than 24 hours must expire at the end of a trading day."
 msgstr "Los contratos de %1 de duración de más de 24 horas deben expirar al final de un día laborable."
 
 #. ($underlying->translated_display_name()
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2431
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2434
 msgid "Contracts on %1 with durations under 24 hours must expire on the same trading day."
 msgstr "Los contratos de %1 de duración inferior a 24 horas deben expirar dentro del mismo día."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/user/reality_check_summaryws.html.haml:1
 msgid "Contracts sold"
 msgstr "Contratos expirados"
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/asian.html.tt:10
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/digits.html.tt:7
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/endsinout.html.tt:14
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/evenodd.html.tt:6
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/higherlower.html.tt:6
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/overunder.html.tt:6
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/risefall.html.tt:18
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/spreads.html.tt:9
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/staysinout.html.tt:10
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/touchnotouch.html.tt:11
-msgid "Contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes."
-msgstr "Los contratos serán reembolsados con el precio de compra si ocurren las siguientes condiciones: (1) hay menos de 2 ticks entre el tiempo de inicio y el tiempo final, o (2) para contratos de duración tick, si el contrato no termina dentro de 5 minutos."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/betting_rules.html.tt:10
 msgid "Contracts will not usually be offered at odds under 0.05-to-1 (i.e. payouts of under USD/GBP/EUR/AUD 1.05 for each USD/GBP/EUR/AUD 1 staked)."
@@ -3248,21 +3197,13 @@ msgstr "Precio actual"
 msgid "Current Spot Time"
 msgstr "Tiempo spot actual"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2304
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2307
 msgid "Current market price is 0."
 msgstr "Precio actual es 0."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/change_passwordws.html.tt:12
 msgid "Current password"
 msgstr "Contraseña actual"
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticate.html.tt:29
-msgid "Current photocard Driving Licence (Provisional or Full)"
-msgstr "Tarjeta fotográfica del carnet de conducir (provisional o permanente) actual"
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticate.html.tt:28
-msgid "Current signed Passport OR"
-msgstr "Pasaporte firmado actual O"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/user/reality_check_summaryws.html.haml:1
 msgid "Current time:"
@@ -3573,14 +3514,6 @@ msgstr ""
 
 #. (token)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/email/resend_verification.html.tt:1
-#, fuzzy
-#| msgid ""
-#| "Dear Valued Customer,\n"
-#| "\n"
-#| "In order to verify, please click on the following link:\n"
-#| "\n"
-#| "%1\n"
-#| "\n"
 msgid ""
 "Dear Valued Customer,\n"
 "\n"
@@ -3591,7 +3524,7 @@ msgid ""
 msgstr ""
 "Estimado cliente,\n"
 "\n"
-"Para completar la verificación, por favor haga clic en el siguiente enlace:\n"
+"Para completar la verificación, por favor use el siguiente token:\n"
 "\n"
 "%1\n"
 "\n"
@@ -3653,6 +3586,32 @@ msgstr "Cancelación por Incumplimiento"
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Demonstrate the ability to think / act quickly and multi-task as needed to execute effective campaigns"
 msgstr "Demostrar la capacidad de pensar / actuar con rapidez y realizar múltiples tareas según sea necesario para ejecutar campañas efectivas"
+
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/datafeed.html.tt:10
+#| msgid "Our servers apply a tick filtering algorithm. The purpose of this filtering algorithm is to strip the feed of stray ticks. Stray ticks are ticks that manifestly fall outside of the current trading range of the market; such ticks are often due to communication delays with the exchanges or banks that provide quotes, human error, or database problems at any point between the originator of the quote and our servers."
+msgid "Depending on the quality of the data feeds received from our feed providers, our servers might apply a tick filtering algorithm. The purpose of this filtering algorithm is to strip the feed of stray ticks. Stray ticks are ticks that manifestly fall outside of the current trading range of the market; such ticks are often due to communication delays with the exchanges or banks that provide quotes, human error, or database problems at any point between the originator of the quote and our servers."
+msgstr ""
+"Dependiendo de la calidad de los datos recibidos de nuestros proveedores de "
+"datos, nuestros servidores podrán aplicar un algoritmo de filtro  para "
+"quitar el flujo de las cotizaciones erróneas. Las cotizaciones erróneas son "
+"intervalos que caen fuera del rango de comercialización actual del mercado; "
+"tales intervalos se deben a las demoras en comunicación con las bolsas o "
+"bancos que proveen cotizaciones, a errores humanos o problemas en las bases "
+"de datos en cualquier punto entre el originador de la cotización y nuestros "
+"servidores."
+
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/datafeed.html.tt:17
+#| msgid "Once stray ticks have been removed, a very short-term smoothing algorithm is applied to the data feed. This smoothing algorithm removes a little of the \"random noise\" surrounding the data feed, and ensures that clients who buy path-dependent contracts (such as the one-touch or barrier-range contracts) will not have their contracts knocked-in or knocked-out by random short-term market noise that does not reflect the true market price."
+msgid "Depending on the quality of the feeds received from our feed providers, our servers might also apply a very short-term smoothing algorithm to the data feed. This smoothing algorithm removes a little of the \"random noise\" surrounding the data feed, and ensures that clients who buy path-dependent contracts (such as the one-touch or barrier-range contracts) will not have their contracts knocked-in or knocked-out by random short-term market noise that does not reflect the true market price."
+msgstr ""
+"Dependiendo de la calidad de los flujos de datos recibidos de nuestro "
+"proveedor de datos, nuestros servidores también podrían aplicar un algoritmo "
+"de suavizado a corto plazo al flujo de datos. Este algoritmo de suavizado "
+"quita el poco \"ruido aleatorio\" alrededor del sistema de flujo de datos y "
+"asegura que los clientes que compran contratos dependientes de la tendencia ("
+"como los contratos de un toque o de rango de barrera) sin que sus contratos "
+"se activen o desactiven por el ruido aleatorio del mercado a corto plazo que "
+"no refleja el verdadero precio del mercado."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:562
 #: /home/git/regentmarkets/bom-backoffice/f_manager_confodeposit.cgi:273
@@ -3785,6 +3744,12 @@ msgstr "Desarrolle su propia aplicación de comercio con nuestras APIs."
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/datafeed.html.tt:19
 msgid "Differences with other data feeds"
 msgstr "Diferencias con otros flujos de datos"
+
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/digits.html.tt:7
+msgid "Digit contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
+msgstr ""
+"Los contratos de dígitos se reembolsará al precio de compra si el contrato "
+"no termina en 5 minutos."
 
 #. (@range)
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Pricing/Engine/Digits.pm:57
@@ -4067,7 +4032,6 @@ msgstr "Contraparte eligible"
 msgid "Eliminating Antisocial Forces"
 msgstr "Eliminating Antisocial Forces"
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/available_payment_agents_list.html.tt:28
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:46
 msgid "Email"
 msgstr "Correo electrónico"
@@ -4105,6 +4069,13 @@ msgstr "Hora de finalización"
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/glossary.html.haml:1
 msgid "Ends Between/Ends Outside trades"
 msgstr "Contratos Finaliza dentro/Finaliza fuera"
+
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/endsinout.html.tt:14
+#| msgid "Contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes."
+msgid "Ends In/Out contracts will be refunded at the purchase price if there are less than 2 ticks between the start and end times."
+msgstr ""
+"Los contratos termina Dentro/Fuera serán reembolsados al precio de compra si "
+"hay menos de 2 ticks entre el tiempo de inicio y el tiempo final."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Engage in data mining using SQL databases, R/S-Plus, OLAP and other analytical tools"
@@ -4189,6 +4160,12 @@ msgstr "A los residentes de la Unión Europea exceptuando al Reino Unido quienes
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:225
 msgid "Even/Odd"
 msgstr "Par/Impar"
+
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/evenodd.html.tt:6
+msgid "Even/Odd contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
+msgstr ""
+"Los contratos de pares/impares se reembolsarán el precio de compra si el "
+"contrato no termina en 5 minutos."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/spread_bets.html.haml:1
 msgid "Example:"
@@ -4378,11 +4355,11 @@ msgstr "Hora de expiración"
 msgid "Expiry price"
 msgstr "Precio de expiración"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2328
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2331
 msgid "Expiry time cannot be equal to start time."
 msgstr "El tiempo de caducidad no puede ser igual al tiempo de inicio."
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2337
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2340
 msgid "Expiry time cannot be in the past."
 msgstr "El tiempo de caducidad no puede estar en el pasado."
 
@@ -4608,11 +4585,6 @@ msgstr "Siga la Ley y Estos Términos"
 msgid "Follow up on rejected deposits"
 msgstr "Hacer el seguimiento de los depósitos rechazados"
 
-#. ($email)
-#: /home/git/translations/binary-static-www2/src/templates/haml/cashier/withdrawal_request.html.haml:1
-msgid "For added security protection against unauthorised withdrawals, an email containing a secure link to the withdrawals page has been sent to your email %1. Please check your email to access this link."
-msgstr "Para la protección adicional contra retiros no autorizados, un correo electrónico con un enlace seguro a la página de retiros ha sido enviado a su correo electrónico %1. Por favor revise su correo electrónico para acceder a este enlace."
-
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:744
 msgid "For added security, please check your email to retrieve the verification token."
 msgstr "Para mayor seguridad, por favor revise su correo electrónico para obtener el token de verificación."
@@ -4736,7 +4708,6 @@ msgstr "Desarrollo front-end (Javascript)"
 msgid "Further Instructions"
 msgstr "Instrucciones adicionales"
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/available_payment_agents_list.html.tt:36
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:54
 msgid "Further information"
 msgstr "Información adicional"
@@ -4998,6 +4969,13 @@ msgstr "Alto/bajo"
 msgid "Higher/Lower"
 msgstr "Superior/Inferior"
 
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/higherlower.html.tt:6
+#| msgid "Contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes."
+msgid "Higher/Lower contracts will be refunded at the purchase price if there are less than 2 ticks between the start and end times."
+msgstr ""
+"Los contratos Superiores/Inferiores serán reembolsados con el precio de "
+"compra si hay menos de 2 ticks entre el tiempo de inicio y el tiempo final."
+
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/glossary.html.haml:1
 msgid "Higher/Lower trades"
 msgstr "Contratos Superior/Inferior"
@@ -5065,14 +5043,9 @@ msgstr "¿Cómo comerciar con spreads?"
 msgid "How to trade the Volatility Indices markets?"
 msgstr "¿Cómo se comercia con los mercados de Índices de Volatilidad?"
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_list.html.tt:2
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:2
 msgid "How to use a payment agent?"
 msgstr "¿Cómo usar un agente de pago?"
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticate.html.tt:24
-msgid "However, in order to increase your withdrawal limits, you are kindly requested to follow the instructions below."
-msgstr "No obstante, para poder aumentar sus límites de retiro, se le solicita que siga las instrucciones a continuación."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:626
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
@@ -5197,7 +5170,6 @@ msgstr "Si decide comprar un contrato con nosotros, es importante que sea consci
 msgid "If you do, no worries. With Binary.com, you can sell your trades before expiry to lock in profits. There’s no need to wait until the end time."
 msgstr "Si lo hace, no hay problema. Con Binary.com puede vender sus contratos antes de que finalicen para retener sus ganancias. No hace falta esperar hasta el final del contrato."
 
-#: /home/git/translations/binary-static-www2/src/templates/haml/cashier/withdrawal_request.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/haml/user/lost_passwordws.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/haml/user/verification_email_sent.html.haml:1
 msgid "If you don't receive the email within the next few minutes, please check your junk/spam mail folder."
@@ -5656,7 +5628,7 @@ msgstr "Riesgos de invertir por Internet"
 msgid "Interpretation"
 msgstr "Interpretación"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2152
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2155
 msgid "Intraday contracts may not cross market open."
 msgstr "Los contratos intradía no pueden cruzar al día siguiente."
 
@@ -5701,7 +5673,7 @@ msgstr "Cantidad no válida. Monto de la transferencia mínima es de 0,10 y hast
 msgid "Invalid amount. minimum is 10, maximum is 2000."
 msgstr "Monto invalido. El mínimo es 10, el máximo es 2000."
 
-#: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/TickStreamer.pm:71
+#: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/TickStreamer.pm:74
 msgid "Invalid candles request"
 msgstr "Solicitud de velas no válida"
 
@@ -5717,7 +5689,7 @@ msgstr "Correo electrónico no válido"
 msgid "Invalid period input! Please input the period between 0 and #1"
 msgstr "¡Entrada de plazo no válida! Introduzca un período entre 0 y #1"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2286
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2289
 msgid "Invalid stake"
 msgstr "Apuesta no válida"
 
@@ -7234,7 +7206,6 @@ msgstr "Nombre de su primer amor"
 msgid "Name of your pet"
 msgstr "Nombre de su mascota"
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/available_payment_agents_list.html.tt:8
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:26
 msgid "Name:"
 msgstr "Nombre:"
@@ -7404,7 +7375,6 @@ msgstr "No FATCA*"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/higherlower.html.tt:6
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/overunder.html.tt:6
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/risefall.html.tt:18
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/spreads.html.tt:9
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/staysinout.html.tt:10
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/touchnotouch.html.tt:11
 msgid "Note"
@@ -7466,21 +7436,13 @@ msgid "Number of ticks"
 msgstr "Número de intervalos"
 
 #. ($min_duration, $max_duration)
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2638
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2656
 msgid "Number of ticks must be between %1 and %2"
 msgstr "Número de los intervalos tiene que ser entre %1 y %2"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:509
 msgid "OK"
 msgstr "Aceptar"
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticate.html.tt:34
-msgid "ORIGINAL Bank/Credit Union/Building Society/Credit/Debit Card statement or passbook (within last 3 months)"
-msgstr "Libreta de banco/unión de crédito/sociedad constructora o extracto de tarjeta de crédito/débito ORIGINAL (de los últimos 3 meses)"
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticate.html.tt:33
-msgid "ORIGINAL Utility bill (within last 3 months) ; or"
-msgstr "Factura de servicios públicos ORIGINAL (de los últimos 3 meses), o"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:356
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/settings_detailsws.html.tt:313
@@ -7489,10 +7451,8 @@ msgstr "Comercio extrabursátil derivativo (con opciones)"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/otc_indices_stocks.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/get_started/nav.html.haml:1
-#, fuzzy
-#| msgid "India Stocks"
 msgid "OTC Indices and Stocks"
-msgstr "Acciones India"
+msgstr "Acciones e índices OTC"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:60
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/settings_detailsws.html.tt:67
@@ -7530,10 +7490,6 @@ msgstr "Sobre la base de la información proporcionada en relación con sus cono
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/main.html.tt:73
 msgid "On-time Payments Every Time"
 msgstr "Pagos puntuales en cualquier momento"
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/datafeed.html.tt:17
-msgid "Once stray ticks have been removed, a very short-term smoothing algorithm is applied to the data feed. This smoothing algorithm removes a little of the \"random noise\" surrounding the data feed, and ensures that clients who buy path-dependent contracts (such as the one-touch or barrier-range contracts) will not have their contracts knocked-in or knocked-out by random short-term market noise that does not reflect the true market price."
-msgstr "Una vez eliminadas las cotizaciones erróneas, se aplicará un algoritmo de suavizado de corto plazo al sistema de flujo de datos. Este algoritmo de suavizado quita el poco \"ruido aleatorio\" alrededor del sistema de flujo de datos y asegura que los clientes que compran contratos dependientes de la tendencia (como los contratos de un toque o de rango de barrera) sin que sus contratos se activen o desactiven por el ruido aleatorio del mercado a corto plazo que no refleja el verdadero precio del mercado."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/promocode.html.tt:20
 msgid "Once the bonus is credited to your account, you may withdraw the bonus and any winnings generated from it at any time."
@@ -7725,14 +7681,16 @@ msgid ""
 "Karen Yap\n"
 "%1"
 msgstr ""
-"Nuestro equipo de atención al cliente presentará otra solicitud de bonificación en su nombre tan pronto como recibamos los documentos. Pueden pasar hasta 3 días laborales para que el bono sea acreditado en su cuenta.\n"
+"Nuestro equipo de atención al cliente presentará otra solicitud de "
+"bonificación en su nombre tan pronto como recibamos los documentos. Pueden "
+"pasar hasta 3 días laborales para que el bono sea acreditado en su cuenta.\n"
 "\n"
 "Le deseamos suerte en su trabajo.\n"
 "\n"
 "Saludos,\n"
 "\n"
 "Karen Yap\n"
-"% 1"
+"%1"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Our customers clearly like us. In mid-2014, Binary.com has over 100 million historical transactions and over 130,000 new daily transactions."
@@ -7746,11 +7704,6 @@ msgstr "Nuestro sistema de flujo de datos está diseñado para ser el mejor y m�
 msgid "Our data feed may at times differ slightly from other data feeds found on the internet (who may themselves differ between each other). Reasons for differences in feed providers include:"
 msgstr "Nuestro sistema de flujo de datos puede diferir un poco de otros sistemas de flujo de datos que se encuentran en Internet (que incluso pueden diferir entre sí). Las razones de esas diferencias pueden incluir:"
 
-#. ("support@binary.com")
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticate.html.tt:36
-msgid "Our email address is %1."
-msgstr "Nuestra dirección de correo electrónico es %1."
-
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Our fast organic growth is supplemented by the acquisition of the client base of BetsForTraders, one of our main competitors."
 msgstr "Nuestro crecimiento rápido se complementa con la adquisición de la cartera de clientes de BetsForTraders, uno de nuestros principales competidores."
@@ -7758,10 +7711,6 @@ msgstr "Nuestro crecimiento rápido se complementa con la adquisición de la car
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/privacy.html.tt:26
 msgid "Our information security policies are based on industry best practices in access control and business continuity."
 msgstr "Nuestras políticas de seguridad de información se basan en las mejores prácticas de la industria en control de acceso y continuidad empresarial."
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/datafeed.html.tt:10
-msgid "Our servers apply a tick filtering algorithm. The purpose of this filtering algorithm is to strip the feed of stray ticks. Stray ticks are ticks that manifestly fall outside of the current trading range of the market; such ticks are often due to communication delays with the exchanges or banks that provide quotes, human error, or database problems at any point between the originator of the quote and our servers."
-msgstr "Nuestros servidores aplican un algoritmo de filtro inmediato para quitar el flujo de las cotizaciones erróneas. Las cotizaciones erróneas son intervalos que caen fuera del rango de comercialización actual del mercado; tales intervalos se deben a las demoras en comunicación con las bolsas o bancos que proveen cotizaciones, a errores humanos o problemas en las bases de datos en cualquier punto entre el originador de la cotización y nuestros servidores."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/risk_disclaimer.html.tt:19
 msgid "Our services are provided on an execution only basis. We do not provide investment advice in relation to our products or services. We sometimes provide factual information or research recommendations about a market, information about transaction procedures and information about the potential risks involved and how those risks may be minimised. However, any decision to use our products or services is made by you."
@@ -7833,6 +7782,12 @@ msgstr "Más de dos millones de dólares en transacciones hasta la fecha."
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:226
 msgid "Over/Under"
 msgstr "Encima/Debajo"
+
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/overunder.html.tt:6
+msgid "Over/Under contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
+msgstr ""
+"Los contratos Sobre/Bajo  se reembolsará el precio de compra si el contrato "
+"no termina en 5 minutos."
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:427
 msgid "Overlay"
@@ -8014,12 +7969,12 @@ msgstr "Pago"
 msgid "Payout has moved in your favour from %1 to %2."
 msgstr "El pago ha cambiado a su favor de %1 a %2."
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2264
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2267
 msgid "Payout may not have more than two decimal places."
 msgstr "El pago no puede tener más de dos decimales."
 
 #. (to_monetary_number_format($payout_min, 1)
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:1661
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:1662
 msgid "Payout must be between %1 and %2."
 msgstr "El pago tiene que ser entre %1 y %2."
 
@@ -8103,7 +8058,6 @@ msgid "Please check your email to retrieve the token needed to reset your passwo
 msgstr "Por favor verifique su correo electrónico para encontrar el token que necesita para restablecer su contraseña."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:745
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/doughflow_currency_choice.html.tt:3
 msgid "Please choose which currency you would like to transact in."
 msgstr "Seleccione la divisa con la que desea realizar la transacción."
 
@@ -8153,9 +8107,9 @@ msgstr "Por favor ingrese un valor mayor o igual a %1."
 msgid "Please enter a number greater than 0"
 msgstr "Por favor ingrese un valor mayor a 0"
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/static.html.tt:100
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/static.html.tt:76
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/static.html.tt:88
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/static.html.tt:72
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/static.html.tt:84
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/static.html.tt:96
 msgid "Please enter a number."
 msgstr "Por favor introduzca un número."
 
@@ -8227,7 +8181,7 @@ msgstr "Asegúrese de que primero acuerde con los Términos de pago del agente a
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/otc_indices_stocks.html.haml:1
 msgid "Please note that due to their over-the-counter nature, the prices of the OTC Indices and stocks will differ from the prices of the corresponding indices and stocks on centralised exchanges."
-msgstr ""
+msgstr "Por favor tenga en cuenta que debido a su naturaleza, los precios de los índices y acciones OTC serán distintos a los precios de los índices y acciones correspondientes en los mercados centralizados."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/privacy.html.tt:11
 msgid "Please note that our website generates log files that record the IP addresses of accesses to your account. This information is gathered with the sole purpose of assisting in the unlikely event of a need to investigate accesses to your account by unauthorised users. Additionally we may verify certain of the information you supply in the account opening form, or otherwise, with third-party information providers."
@@ -8247,7 +8201,7 @@ msgstr "Tenga en cuenta que puede actualizar su información personal en cualqui
 msgid "Please note that your settings have been updated as follows:"
 msgstr "Tenga en cuenta que sus configuraciones deben actualizarse como se muestra a continuación:"
 
-#: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/TickStreamer.pm:177
+#: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/TickStreamer.pm:180
 msgid "Please provide an underlying symbol."
 msgstr "Por favor proporcione un símbolo subyacente."
 
@@ -8548,7 +8502,6 @@ msgstr "Privacy Policy"
 #: /home/git/translations/binary-static-www2/src/templates/haml/user/email_verified.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/realws.html.tt:20
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/deposit_withdraw_ws.html.tt:40
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/ukgc_funds_protection_message.html.tt:19
 msgid "Proceed"
 msgstr "Seguir"
 
@@ -8917,12 +8870,12 @@ msgstr "Representa el número máximo de contratos pendientes en su cartera. Cad
 msgid "Represents the maximum volume of contracts that you may purchase in any given trading day."
 msgstr "Representa el volumen máximo de contratos que puede comprar en un día de comercialización determinado."
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2451
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2454
 msgid "Resale of this contract is not offered due to market holidays during contract period."
 msgstr "La reventa de este contraro no se oferece debido a los festivos durante el período del contrato."
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2612
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2621
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2630
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2639
 msgid "Resale of this contract is not offered."
 msgstr "La reventa de este contrato no se oferece."
 
@@ -9056,6 +9009,17 @@ msgstr "Alza/Baja"
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/ContractForm.pm:642
 msgid "Rise/Fall contracts of less than 5 minutes duration are only available when you select \"Now\" as the start time."
 msgstr "Los contratos de Alza/Baja de corto plazo de menos de 5 minutos solo están disponibles si selecciona \"Ahora\" como momento de comienzo."
+
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/risefall.html.tt:18
+#| msgid "Contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes."
+msgid "Rise/Fall contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes, or (3) for contracts starting in the future, if there are no ticks in the 5 minutes before the contract's start time."
+msgstr ""
+"Los contratos Sube/Baja serán reembolsados con el precio de compra si "
+"ocurren las siguientes condiciones: (1) hay menos de 2 ticks entre el tiempo "
+"de inicio y el tiempo final, o (2) para contratos de duración tick, si el "
+"contrato no termina dentro de 5 minutos, o (3) para los contratos que "
+"comienzan en el futuro, si no hay ticks en los 5 minutos antes del tiempo de "
+"inicio del contrato."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/glossary.html.haml:1
 msgid "Rise/Fall trades"
@@ -9262,7 +9226,6 @@ msgstr "Revenda los contratos según los precios del mercado."
 msgid "Sell option"
 msgstr "Opción de venta"
 
-#: /home/git/translations/binary-static-www2/src/templates/haml/cashier/withdrawal_request.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/haml/user/email_verification.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/haml/user/email_verified.html.haml:1
 msgid "Send Verification Email"
@@ -9272,7 +9235,6 @@ msgstr "Enviar el correo de verificación"
 msgid "Send us a CV and a covering letter that describes your career interests."
 msgstr "Envíenos su currículum y una carta de presentación que describa sus intereses profesionales."
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_list.html.tt:10
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:11
 msgid "Send your funds to the payment agent. The deposited funds, less the agent's commission, will show up in your account."
 msgstr "Haga un depósito con un agente de pago. Los fondos depositados se mostrarán en su cuenta, menos la comisión que cobra el agente."
@@ -9377,7 +9339,6 @@ msgstr "En caso de que estos gastos no sean cubiertos por los fondos en su cuent
 msgid "Should you need help or support, please contact our <a href=\"%1\">Customer Service department</a> and one of our representatives will assist you as soon as possible."
 msgstr "Si necesita ayuda o apoyo, por favor póngase en contacto con nuestro <a href=\"%1\">Departamento de servicio al cliente</a> y uno de nuestros representantes le ayudará tan pronto como sea posible."
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_list.html.tt:15
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:15
 msgid "Show payment agents for:"
 msgstr "Mostrar agentes de pagos para:"
@@ -9758,20 +9719,20 @@ msgid "Start time"
 msgstr "Hora de comienzo"
 
 #. ($start, $end)
-#: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/TickStreamer.pm:250
+#: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/TickStreamer.pm:253
 msgid "Start time %1 must be before end time %2"
 msgstr "La hora de inicio %1 debe ser anterior a la hora de la finalización %2"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2351
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2354
 msgid "Start time is in the future."
 msgstr "La hora de inicio es en el futuro."
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2346
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2349
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Transaction.pm:384
 msgid "Start time is in the past"
 msgstr "La hora de inicio ya ha pasado"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2359
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2362
 msgid "Start time on forward-starting contracts must be more than 5 minutes from now."
 msgstr "El contrato de comienzo aplazado debe comenzar a más de 5 minutos a partir de ahora."
 
@@ -9813,6 +9774,13 @@ msgstr "Manténgase informado. %1 le ofrece los informes diarios y los estudios 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/glossary.html.haml:1
 msgid "Stays Between/Goes Outside trades"
 msgstr "Contratos Queda dentro/Sale"
+
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/staysinout.html.tt:10
+#| msgid "Contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes."
+msgid "Stays In/Goes Out Contracts will be refunded at the purchase price if there are less than 2 ticks between the start and end times."
+msgstr ""
+"Los contratos Queda Dentro/Sale Fuera serán reembolsados al precio de compra "
+"si hay menos de 2 ticks entre el tiempo de inicio y el tiempo final."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:358
 msgid "Step"
@@ -9920,7 +9888,7 @@ msgstr "Tipo de stop"
 msgid "Storage of Content"
 msgstr "Almacenamiento de Contenido"
 
-#: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/TickStreamer.pm:182
+#: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/TickStreamer.pm:185
 msgid "Streaming for this symbol is not available due to license restrictions."
 msgstr "El Streaming para este símbolo no está disponible debido a restricciones de licencia."
 
@@ -9966,7 +9934,7 @@ msgid "Student"
 msgstr "Student"
 
 #. ($style)
-#: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/TickStreamer.pm:76
+#: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/TickStreamer.pm:79
 msgid "Style %1 invalid"
 msgstr "Estilo %1 no es válido"
 
@@ -10002,7 +9970,6 @@ msgstr "Dichos materiales pueden copiarse y distribuirse de acuerdo con una base
 msgid "Summary Order Execution Policy"
 msgstr "Resumen de la política de ejecución de órdenes"
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/available_payment_agents_list.html.tt:12
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:30
 msgid "Summary:"
 msgstr "Resumen:"
@@ -10081,7 +10048,6 @@ msgstr "Con la tarea de escribir código robusto y de alta calidad, listo para l
 msgid "Technical Indicator derived from subtracting Aroon Down from Aroon Up. As Aroon Up and Aroon Down oscillate between 0 and 100, the Aroon Oscillator oscillates between -100 and 100 with zero as the centre crossover line."
 msgstr "El indicador técnico deriva de sustraer el Aroon descendente del Aroon ascendente. Mientras que el Aroon ascendente y descendente oscilan entre 0 y 100, el oscilador de Aroon oscila entre -100 y 100 con 0 como centro en el cruce de la línea."
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/available_payment_agents_list.html.tt:32
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:50
 msgid "Tel"
 msgstr "Tel"
@@ -10368,10 +10334,8 @@ msgid "The Company reserves the right to change any part of this Agreement at an
 msgstr "La Compañía se reserva el derecho de cambiar cualquier parte de este Acuerdo en cualquier momento. Nos esforzaremos para segurar que los afiliados son notificados cuando se realizan cambios a este acuerdo, pero en última instancia es su responsabilidad comprobar estos términos y condiciones regularmente. Su continua participación en nuestro programa de afiliados después de que hayamos publicado los cambios constituirá la aceptación vinculante de tales cambios."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:145
-#, fuzzy
-#| msgid "In the case that any financial contracts are acquired or sold at prices that do not reflect fair market prices or that are acquired or sold at an abnormally low level of risk due to an undetected programming error, bug or glitch in our website software, the Company reserves the right to cancel or reverse such transactions upon notification to the Client of the nature of the computer error that led to the mispricing. Clients have a duty to report to the Company any problems or suspected system inadequacies that they may experience and may not abuse of system problems for profit. The Company will endeavour to resolve any such difficulties in the shortest time possible. Persons with insider knowledge of any financial market or instrument are prohibited from trading at this website. In case of errors or inconsistency of data feeds, we reserve the right to cancel any or all affected contracts."
 msgid "The Company reserves the right to restrict client trading and/or cancel or reverse transactions in the case that any contracts are acquired or sold at prices that do not reflect fair market prices or that are acquired or sold at an abnormally low level of risk due to an undetected programming error, bug or glitch in our website software, market data feed or contract pricing latency, data feed error, stray quotes, incorrect pricing parameters, or manifest mis-calculation of prices or other manifest error. Clients have a duty to report to the Company any such problems, errors or suspected system inadequacies that they may experience and may not abuse of or arbitrage such system problems or errors for profit. The Company will endeavour to resolve any such difficulties in the shortest time possible. Persons with insider knowledge of any financial market or instrument are prohibited from trading at this website."
-msgstr "Ante el caso de cualquier contrato financiero adquirido o vendido a un precio que no refleje los precios justos del mercado o que son comprados o vendidos a un nivel de riesgo irregularmente bajo debido a un error de programación no detectado, bug o fallo técnico en el software de nuestro sitio web, la Compañía se reserva el derecho a cancelar o revertir dichas transacciones previa notificación al cliente de la naturaleza del error informático que resultó en la valoración incorrecta. Los clientes tienen el deber de informar a la Compañía sobre cualquier problema o supuesta insuficiencia del sistema que puedan experimentar y de no abusar de los problemas del sistema con fines de lucro. La Compañía procurará resolver cualquier dificultad en el mínimo tiempo posible. Las personas con conocimiento de información privilegiada de cualquier valor o mercado financiero tienen prohibido invertir en este sitio web. En caso de un error o inconsistencia de los datos del mercado, nos reservamos el derecho de cancelar cualquiera o todos los contratos afectados."
+msgstr "La Compañía se reserva el derecho a restringir el comercio del cliente y/o cancelar o revertir transacciones en caso de que los contratos sean adquiridos o vendidos a precios que no reflejan los precios justos del mercado o se adquieren o venden un nivel anormalmente bajo de riesgo debido a un error de programación no detectado, error o fallo en el software de nuestro sitio web, feed de los datos del mercado o latencia de los precios del contrato, error del feed de datos, precios aleatorios, parámetros de precios incorrectos o mal cálculo de los precios u otro error de manifiesto. Los clientes tienen la obligación de informar a la Compañía de tales problemas, errores o insuficiencias del sistema que pueden experimentar y no abusar de o arbitrar tales problemas del sistema o errores con fines de lucro. La Compañía se esforzará en resolver tales dificultades en el menor tiempo posible. Las personas con conocimiento de información privilegiada de cualquier mercado financiero o instrumento tienen prohibido comerciar en este sitio web."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:116
 msgid "The Company reserves the right to suspend the operation of this site or sections thereof:"
@@ -10624,7 +10588,6 @@ msgid "The company has various deposit methods available, each with their own ti
 msgstr "La compañía cuenta con varios métodos de depósito disponibles, cada uno con sus propios plazos de demora para los depósitos, algunos de los cuales podrían no estar disponibles para los retiros. Los detalles completos de los métodos de depósito y retiro disponibles, incluyendo los plazos de demora, están disponibles <a href='%1' class='pjaxload'>aquí:</a>"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/deposit_withdraw_ws.html.tt:36
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/ukgc_funds_protection_message.html.tt:13
 msgid "The company holds customer funds in separate bank accounts to the operational accounts which would not, in the event of insolvency, form part of the Company's assets. This meets the Gambling Commission’s requirements for the segregation of customer funds at the level: <strong>medium protection</strong>."
 msgstr "La Compañía guarda los fondos de los clientes en cuentas bancarias separadas de las cuentas operativas que no formarán, en caso de insolvencia, parte de los activos de la Compañía. Esto cumple con los requisitos de la Comisión de juego para la segregación de los recursos de clientes a nivel de: <strong>protección media</strong>."
 
@@ -10657,7 +10620,7 @@ msgstr "El %4 de contrato ha cambiado a su favor de %1%2 a %1%3."
 msgid "The contract has expired"
 msgstr "El contrato ha vencido"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2409
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2412
 msgid "The contract must expire on a trading day."
 msgstr "El contrato debe expirar en un día hábil."
 
@@ -10702,8 +10665,13 @@ msgid "The expiry price is the price of the underlying when the contract expires
 msgstr "El precio de caducidad es el precio del subyacente cuando el contrato expira."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/datafeed.html.tt:13
-msgid "The filtering algorithm is based on a mathematical formula similar to the \"Bollinger Bands\" volatility system - i.e., short-term volatility bands are determined around the present market value, and ticks that are manifestly outside of such bands are removed."
-msgstr "El algoritmo de filtros está basado en una fórmula matemática similar al sistema de volatilidad \"bandas de Bollinger\", es decir, las bandas de volatilidad a corto plazo se determinan según el valor de mercado actual y se eliminan los intervalos fuera de estas bandas."
+#| msgid "The filtering algorithm is based on a mathematical formula similar to the \"Bollinger Bands\" volatility system - i.e., short-term volatility bands are determined around the present market value, and ticks that are manifestly outside of such bands are removed."
+msgid "The filtering algorithm may for example be similar to the \"Bollinger Bands\" volatility system - i.e., short-term volatility bands are determined around the present market value, and ticks that are manifestly outside of such bands are removed."
+msgstr ""
+"El algoritmo de filtrado puede por ejemplo ser similar al sistema de "
+"volatilidad \"Bandas de Bollinger\", es decir, las bandas de volatilidad a "
+"corto plazo se determinan según el valor de mercado actual y se eliminan los "
+"intervalos fuera de estas bandas."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:18
 msgid "The financial trading services contained within this site are only suitable for Clients who are able to bear the loss of all the money they invest and who understand and have experience of the risks involved in the acquisition of financial contracts."
@@ -10749,7 +10717,7 @@ msgstr "La pérdida de USD 306 representa la diferencia entre los niveles de sal
 msgid "The market exit price is the price in effect at the end of the contract period."
 msgstr "El precio de salida del mercado es el precio en vigor en el momento de la finalización del contrato."
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2398
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2401
 msgid "The market must be open at the start time."
 msgstr "El mercado debe estar abierto al inicio."
 
@@ -10902,10 +10870,6 @@ msgstr "Los índices de volatilidad simulan varias situaciones reales del mercad
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/tour.html.haml:1
 msgid "Then, make your trade"
 msgstr "Después, compre su contrato"
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_list.html.tt:26
-msgid "There are no available Payment Agents."
-msgstr "No hay agentes de pagos disponibles."
 
 #: /home/git/regentmarkets/bom-backoffice/templates/backoffice/account/profit_table.html.tt:115
 msgid "There are no contracts during this period"
@@ -11092,7 +11056,7 @@ msgstr "Este contrato ha GANADO"
 msgid "This contract has already expired."
 msgstr "Este contrato ya expiró."
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:1107
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:1108
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Contract/Spread.pm:308
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/portfolio/contract_details.html.tt:46
 msgid "This contract has been sold."
@@ -11102,7 +11066,7 @@ msgstr "El contrato ha sido vendido."
 msgid "This contract has expired."
 msgstr "El contrato ha expirado."
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:1125
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:1126
 msgid "This contract is affected by corporate action."
 msgstr "Este contrato ha sido afectado por la acción corporativa."
 
@@ -11119,7 +11083,7 @@ msgstr "Este contrato no está disponible para esta cuenta."
 msgid "This contract lost"
 msgstr "Este contrato perdió"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2304
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2307
 msgid "This contract offers no return."
 msgstr "Este contrato no ofrece ganancias."
 
@@ -11201,7 +11165,7 @@ msgstr "Es por esto que ahora estamos reclutando probadores adicionales para cad
 msgid "This market closes early today at"
 msgstr "Este mercado cierra temprano hoy a las"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2398
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2401
 msgid "This market is presently closed."
 msgstr "Este mercado está cerrado."
 
@@ -11294,9 +11258,7 @@ msgstr "Al"
 msgid "To apply, please submit your CV and a cover letter to <span id=\"hr_contact_eaddress\"></span>."
 msgstr "Para presentar su candidatura, por favor envíe su currículum y una carta de presentación a  <span id=\"hr_contact_eaddress\"></span>."
 
-#. ("<a href=\"mailto:support@binary.com\">support@binary.com</a>")
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:390
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticate.html.tt:11
 msgid "To authenticate your account, kindly email the following to %1"
 msgstr "Para autenticar por completo su cuenta, envíe lo siguiente por correo electrónico a %1"
 
@@ -11320,10 +11282,6 @@ msgstr "Para continuar usando nuestro sistema de cajeros, intente acceder nuevam
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/logintrouble.html.tt:6
 msgid "To enable cookies, follow the instructions below for the browser version that you are using."
 msgstr "Para habilitar las cookies, siga las indicaciones de abajo para la versión de navegador que utiliza."
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticate.html.tt:26
-msgid "To fully authenticate your account, please email scanned copies of the document listed below."
-msgstr "Para autenticar por completo su cuenta, envíe por correo electrónico copias digitalizadas del documento solicitado a continuación."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:61
 msgid "To improve the user experience of your Application, where appropriate you may cache the Content for up to 24 hours from a request for that Content through the Binary.com API before being deleted. This limited permission to cache is for performance reasons only."
@@ -11350,7 +11308,7 @@ msgid "Token"
 msgstr "Token"
 
 #. ($safer_expiry->date)
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2452
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2455
 msgid "Too many market holidays during the contract period. Select an expiry date after %1."
 msgstr "Demasiados días festivos en el mercado durante el período del contrato. Seleccione una fecha de vencimiento después de %1."
 
@@ -11374,6 +11332,13 @@ msgstr "Beneficios/perdidas totales"
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/volidx_markets.html.haml:1
 msgid "Touch/No Touch"
 msgstr "Toque/Sin toque"
+
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/touchnotouch.html.tt:11
+#| msgid "Contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes."
+msgid "Touch/No Touch contracts will be refunded at the purchase price if there are less than 2 ticks between the start and end times."
+msgstr ""
+"Los contratos Toque/No Toque serán reembolsados al precio de compra si hay "
+"menos de 2 ticks entre el tiempo de inicio y el tiempo final."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/types_of_trades.html.haml:1
 msgid "Touch/No touch trades"
@@ -11438,7 +11403,9 @@ msgstr "Solo opere con dinero que puede perder. No opere con dinero prestado."
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/tour.html.haml:1
 msgid "Trade with ease with %1's wide range of deposit and withdrawal methods. Your funds will be segregated and held in AAA-rated banks."
-msgstr "Opere con tranquilidad con la gran variedad de métodos de pago de 1%. Sus fondos se segregan y conservan en bancos con calificación AAA."
+msgstr ""
+"Opere con tranquilidad con la gran variedad de métodos de pago de %1. Sus "
+"fondos se segregan y conservan en bancos con calificación AAA."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/home/index.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/why_us.html.haml:1
@@ -11467,8 +11434,8 @@ msgstr "Reglas de comercio"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Menu.pm:161
 #: /home/git/regentmarkets/bom-web/lib/BOM/Web/Static.pm:423
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2424
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2437
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2427
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2440
 #: /home/git/translations/binary-static-www2/src/templates/haml/resources/index.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/datafeed.html.tt:29
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/resources/market_timesws.html.tt:2
@@ -11499,18 +11466,18 @@ msgstr "Las operaciones con opciones binarias son especulaciones e implican un a
 msgid "Trading is Suspended"
 msgstr "Operaciones temporalmente suspendidas"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2622
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2640
 msgid "Trading is not offered for this duration."
 msgstr "Operaciones no están disponibles para la duración elegida."
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2169
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2179
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2189
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2196
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2172
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2182
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2192
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2199
 msgid "Trading is suspended at the moment."
 msgstr "Por el momento, la comercialización está suspendida."
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2674
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2692
 msgid "Trading is suspended due to missing market data."
 msgstr "Las operaciones están suspendidas por falta de datos del mercado."
 
@@ -11531,10 +11498,10 @@ msgstr "En estos momentos, las operaciones sobre %1 están suspendidas."
 #. ($self->underlying->translated_display_name)
 #. ($self->underlying->translated_display_name()
 #. ($translated_name)
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:1411
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:153
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2214
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2222
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:1412
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:154
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2217
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2225
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Contract/Spread.pm:212
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Contract/Spread.pm:253
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Contract/Spread.pm:461
@@ -11631,7 +11598,7 @@ msgstr "Pruebe añadir más números."
 msgid "Try it now"
 msgstr "Pruébelo ahora"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2405
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2408
 msgid "Try out the Volatility Indices which are always open."
 msgstr "Pruebe los Índices de Volatilidad que siempre están disponibles."
 
@@ -12000,7 +11967,7 @@ msgid "Volatility Indices are further categorized into two types:"
 msgstr "Los Índices de Volatilidad se clasifican en dos tipos:"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:227
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:150
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:151
 msgid "Waiting for entry tick."
 msgstr "Esperando el tick de entrada."
 
@@ -12086,7 +12053,6 @@ msgstr "Estamos obligados por nuestra licencia a informarle acerca de lo que ocu
 
 #. ("http://www.gamblingcommission.gov.uk/Consumers/Protection-of-customer-funds.aspx")
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/deposit_withdraw_ws.html.tt:33
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/ukgc_funds_protection_message.html.tt:10
 msgid "We are required by our license to inform you about what happens to funds which we hold on account for you, and the extent to which funds are protected in the event of insolvency <a href='%1' target='_blank'>%1</a>."
 msgstr "Estamos obligados por nuestra licencia a informarle acerca de lo que ocurre con sus fondos que guardamos en la cuenta para usted y acerca del grado de protección de los fondos en caso de insolvencia de <a href='%1' target='_blank'>%1</a>."
 
@@ -12094,8 +12060,8 @@ msgstr "Estamos obligados por nuestra licencia a informarle acerca de lo que ocu
 msgid "We are required to take a number of factors into account when considering how to give you best execution. We have rated price as the most important followed by: (a) costs; (b) size, (c) liquidity of the underlying market, (d) speed and (e) likelihood of execution and settlement. The main way in which we will ensure that you obtain best execution is by ensuring that in our calculation of our bid/offer prices, we pay due consideration to the market price for the underlying reference product to which your Contract relates. We have access to a number of different data sources in order to ascertain the market price, which is our objective view of the bids and offers available to arms' length traders."
 msgstr "Estamos obligados a tener en cuenta una serie de factores al considerar cómo ofrecerle la mejor ejecución. Hemos evaluado el precio como el factor más importante, seguido de: (a) los costos; (b) el tamaño, (c) la liquidez del mercado subyacente, (d) la velocidad y (e) la probabilidad de ejecución y liquidación. La principal forma en la que nos aseguraremos de que usted obtenga la mejor ejecución es asegurándonos de que al calcular nuestros precios de oferta / demanda prestamos la debida atención al precio de mercado del producto de referencia subyacente sobre que se compra el contrato. Tenemos acceso a una serie de diferentes fuentes de datos con el fin de determinar el precio del mercado, lo cual consideramos como visión objetiva de las ofertas disponibles a los operadores independientes."
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:1421
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:1555
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:1422
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:1556
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Contract/Digitdiff.pm:44
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Contract/Digitmatch.pm:45
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Role/BarrierBuilder.pm:22
@@ -12241,7 +12207,6 @@ msgstr "Versión web"
 msgid "Webinars"
 msgstr "Seminarios web"
 
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/available_payment_agents_list.html.tt:24
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:42
 msgid "Website"
 msgstr "Sitio web"
@@ -12312,7 +12277,7 @@ msgstr "Nos orgullecemos de este premio. Estamos firmemente comprometidos a ofre
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/otc_indices_stocks.html.haml:1
 msgid "What are OTC indices and stocks?"
-msgstr ""
+msgstr "¿Qué son las acciones y los índices OTC?"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/smart_indices.html.haml:1
 msgid "What are Smart Markets?"
@@ -12320,7 +12285,7 @@ msgstr "¿Qué son los mercados Smart?"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/otc_indices_stocks.html.haml:1
 msgid "What are the OTC Indices and Stocks?"
-msgstr ""
+msgstr "¿Qué son las Acciones y los Índices OTC?"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/smart_indices.html.haml:1
 msgid "What are the Smart Markets?"
@@ -12362,7 +12327,7 @@ msgstr "Cuando llega el momento de relajarse, encontrará hermosas playas, islas
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:63
 msgid "When the Affiliate’s referred clients open an account with any member of the Binary group, we assume ownership of the database of names and contact information and any other data of the Affiliates’ referred clients."
-msgstr ""
+msgstr "Cuando los clientes referidos por los afiliados abren una cuenta con cualquier miembro del grupo Binary, asumimos la propiedad de la base de datos de nombres y de información de contacto y otros datos de los clientes referidos por los afiliados."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:122
 msgid "When there is a breakdown in the means of communication normally employed in determining the price or value of any of the financial contracts or where the price or value of any of the financial contracts cannot be promptly or accurately ascertained."
@@ -12635,10 +12600,6 @@ msgstr "Retiro"
 msgid "Withdrawal Limits"
 msgstr "Límites de retiro"
 
-#: /home/git/translations/binary-static-www2/src/templates/haml/cashier/withdrawal_request.html.haml:1
-msgid "Withdrawal Verification"
-msgstr "Verificación de Retiro"
-
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Work closely with other members of the team to develop software that would drive prices on our trading platform"
 msgstr "Trabajar en estrecha colaboración con otros miembros del equipo para desarrollar un software que estará ejecutando los precios en nuestra plataforma de comercio"
@@ -12758,7 +12719,7 @@ msgstr "Le advertimos que las opciones binarias que ofrece %1 no se comercializa
 #. ($symbol)
 #. ($args->{ticks_history})
 #: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/v3/Wrapper/Streamer.pm:39
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/v3/Wrapper/Streamer.pm:65
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/v3/Wrapper/Streamer.pm:66
 msgid "You are already subscribed to %1"
 msgstr "Usted ya está suscrito a %1"
 
@@ -12782,11 +12743,11 @@ msgstr "Actualmente está en su cuenta de dinero real de %1 (%2)."
 msgid "You are currently logged in to your virtual money account (%2)."
 msgstr "Actualmente está en su cuenta de dinero virtual  (%2)."
 
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/v3/Wrapper/Streamer.pm:110
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/v3/Wrapper/Streamer.pm:111
 msgid "You are either already subscribed or you have reached the limit for pricing table subscription."
 msgstr "Usted ya está suscrito o ha alcanzado el límite para la suscripción de la tabla de precios."
 
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/v3/Wrapper/Streamer.pm:89
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/v3/Wrapper/Streamer.pm:90
 msgid "You are either already subscribed or you have reached the limit for proposal subscription."
 msgstr "Usted ya está suscrito o ha alcanzado el límite para la suscripción propuesta."
 
@@ -12850,7 +12811,6 @@ msgid "You can trade a range of markets, timescales and indices – 24/7."
 msgstr "Puede operar con una variedad de mercados, plazos e índices – 24/7."
 
 #. (website)
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_list.html.tt:4
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:5
 msgid "You can use an authorized payment agent to process deposits and withdrawals for payment methods or local currencies not supported by %1. It's easy to do."
 msgstr "Puede usar los agentes de pagos para realizar depósitos y retiros de dinero con métodos de pago o en divisas locales que no se admiten en %1. Es sencillo."
@@ -13054,10 +13014,8 @@ msgid "You set the barrier(s) to define your position."
 msgstr "Usted define los límites de su contrato."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:26
-#, fuzzy
-#| msgid "You shall avoid disclosure or unauthorized use of any confidential information that may come to your knowledge or possession to third persons or external parties unless you have our prior written consent and that you will use such confidential information only for purposes necessary to further the purposes of this Agreement."
 msgid "You shall avoid disclosure or unauthorized use of any confidential information that may come to your knowledge or possession to third persons or external parties."
-msgstr "Usted deberá evitar la divulgación o uso no autorizado de cualquier información confidencial que puede llegar a su conocimiento o posesión a terceros o a partes externas a menos que tenga nuestro consentimiento previo por escrito y que usted usará dicha información confidencial solamente para los propósitos necesarios para los fines del presente Acuerdo."
+msgstr "Usted deberá evitar la divulgación o uso no autorizado de cualquier información confidencial que puede llegar a su conocimiento o posesión a terceros o a partes externas."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:186
 msgid "You shall be solely responsible for, and shall indemnify and hold the Company free and harmless from, any and all third party claims, damages or lawsuits (including, but not limited to, consequential losses and loss of profit, the Company’s reasonable legal costs and expenses if applicable):"
@@ -13225,15 +13183,6 @@ msgstr "Su cuenta está totalmente autenticada y su límite de retirada ha sido 
 msgid "Your account is fully authenticated. You can view your %1trading limits here"
 msgstr "Su cuenta está totalmente autenticada. Usted puede ver sus límites de operaciones %1 aquí"
 
-#. (request.url_for("/cashier/limitsws"))
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticate.html.tt:5
-msgid "Your account is fully authenticated. You can view your <a class=\"pjaxload\" href=\"%1\">trading limits here</a>."
-msgstr "Su cuenta está totalmente autenticada. Usted puede ver sus límites de operaciones <a class=\"pjaxload\" href=\"%1\">aquí</a>."
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticate.html.tt:23
-msgid "Your account is fully operational and you may begin depositing money and buying contracts."
-msgstr "Su cuenta es totalmente operativa y usted puede comenzar a depositar dinero y comprar contratos."
-
 #. (request.url_for("contact"))
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/reset_password.html.tt:18
 msgid "Your account is important to us. Please <a href=\"%1\">contact us</a> should you need further assistance."
@@ -13389,10 +13338,8 @@ msgid "Your password has been changed."
 msgstr "Su contraseña ha sido cambiada."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/change_passwordws.html.tt:72
-#, fuzzy
-#| msgid "Your password has been changed."
 msgid "Your password has been changed. Please log in again."
-msgstr "Su contraseña ha sido cambiada."
+msgstr "Su contraseña ha sido cambiada. Por favor, inicie sesión nuevo."
 
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Accounts.pm:516
 msgid "Your password has been reset."
@@ -13513,8 +13460,6 @@ msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "alfanumérico con espacio y guión, de 2 a 32 caracteres"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:392
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticate.html.tt:17
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/authenticate.html.tt:31
 msgid "and"
 msgstr "y"
 
@@ -13538,7 +13483,7 @@ msgstr "cualquier restricción a sus clientes de comprar cualquier contrato dura
 msgid "apostrophe"
 msgstr "apóstrofe"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2102
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2105
 msgid "barrier"
 msgstr "límite"
 
@@ -13552,7 +13497,7 @@ msgid "binary options, forex, forex trading, online trading, financial trading, 
 msgstr "opciones binarias, Forex, mercado de Forex, comercio en línea, comercio financiero, comercio binario, comercio sobre índices, operar sobre índices, operaciones de divisas, operaciones con materias primas, estrategia de opciones binarias, corredor binario, apuesta binaria, plataforma de operaciones con opciones binarias, estrategia binaria, finanzas, acción, inversión, comercio"
 
 #. ($self->date_expiry->date)
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:804
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:805
 msgid "close on %1"
 msgstr "cierre %1"
 
@@ -13564,7 +13509,7 @@ msgstr "coma"
 msgid "conflicts Policy"
 msgstr "Conflictos"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:798
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:799
 msgid "contract start time"
 msgstr "hora inicio contrato"
 
@@ -13613,11 +13558,11 @@ msgstr "explicación"
 msgid "f"
 msgstr "f"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:809
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:810
 msgid "first tick"
 msgstr "primer intervalo"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2102
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2105
 msgid "high barrier"
 msgstr "límite superior"
 
@@ -13660,7 +13605,7 @@ msgstr "letras"
 msgid "loading..."
 msgstr "cargando..."
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2102
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2105
 msgid "low barrier"
 msgstr "límite inferior"
 
@@ -13679,7 +13624,7 @@ msgstr "min"
 msgid "minimum available duration"
 msgstr "duración mínima disponible"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2099
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2102
 msgid "minus"
 msgstr "menos"
 
@@ -13736,7 +13681,7 @@ msgstr "contraseña"
 msgid "period"
 msgstr "período"
 
-#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2099
+#: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2102
 msgid "plus"
 msgstr "más"
 
@@ -14249,7 +14194,7 @@ msgstr "{JAPAN ONLY}Knowledge Test Result"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:30
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:42
 msgid "{JAPAN ONLY}No space between last name and first name"
-msgstr ""
+msgstr "{JAPAN ONLY}No space between last name and first name"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:169
 msgid "{JAPAN ONLY}Option Pricing"
@@ -14710,10 +14655,8 @@ msgid "USD/NOK"
 msgstr "USD/NOK"
 
 #: Underlying Symbol frxAUDTRY
-#, fuzzy
-#| msgid "USD/TRY"
 msgid "AUD/TRY"
-msgstr "USD/TRY"
+msgstr "AUD/TRY"
 
 #: Underlying Symbol frxEURBRL
 msgid "EUR/BRL"
@@ -15016,10 +14959,8 @@ msgid "CHF/JPY"
 msgstr "CHF/JPY"
 
 #: Underlying Symbol OTC_SSECOMP
-#, fuzzy
-#| msgid "Shanghai Index"
 msgid "Shanghai OTC Index"
-msgstr "Índice Shanghai"
+msgstr "Índice OTC Shanghai"
 
 #: Underlying Symbol SYNFCHI
 msgid "French Smart Index"
@@ -15034,10 +14975,8 @@ msgid "US Tech Composite Index"
 msgstr "Índice US Tech Composite"
 
 #: Underlying Symbol OTC_RTSI
-#, fuzzy
-#| msgid "Russian Regular Index"
 msgid "Russian Regular OTC Index"
-msgstr "Índice regular Rusia"
+msgstr "Índice OTC Regular Rusia"
 
 #: Underlying Symbol FTSE
 msgid "UK Index"
@@ -15053,10 +14992,8 @@ msgid "Euro 150 Index"
 msgstr "Índice Euro 150"
 
 #: Underlying Symbol OTC_FTSEMIB
-#, fuzzy
-#| msgid "Italian Index"
 msgid "Italian OTC Index"
-msgstr "Índice Italia"
+msgstr "Índice OTC Italia"
 
 #: Underlying Symbol SSECOMP
 msgid "Shanghai Index"
@@ -15075,10 +15012,8 @@ msgid "Portuguese Index"
 msgstr "Índice Portugal"
 
 #: Underlying Symbol OTC_IBOV
-#, fuzzy
-#| msgid "Brazilian Index"
 msgid "Brazilian OTC Index"
-msgstr "Índice de Brazil"
+msgstr "Índice OTC Brasil"
 
 #: Underlying Symbol DJI
 msgid "Wall Street Index"
@@ -15089,16 +15024,12 @@ msgid "Saudi Arabia Index"
 msgstr "Índice Arabia Saudí"
 
 #: Underlying Symbol OTC_PSI20
-#, fuzzy
-#| msgid "Portuguese Index"
 msgid "Portuguese OTC Index"
-msgstr "Índice Portugal"
+msgstr "Índice OTC Portugués"
 
 #: Underlying Symbol OTC_IBEX35
-#, fuzzy
-#| msgid "Spanish Index"
 msgid "Spanish OTC Index"
-msgstr "Índice España"
+msgstr "Índice OTC Español"
 
 #: Underlying Symbol SX5E
 msgid "Euro 50 Index"
@@ -15109,10 +15040,8 @@ msgid "Euro 50 Smart Index"
 msgstr "Índice Smart Euro 50"
 
 #: Underlying Symbol OTC_SZSECOMP
-#, fuzzy
-#| msgid "Shenzhen Index"
 msgid "Shenzhen OTC Index"
-msgstr "Índice Shenzhen"
+msgstr "Índice OTC Shenzhen"
 
 #: Underlying Symbol OBX
 msgid "Norwegian Index"
@@ -15123,16 +15052,12 @@ msgid "Japanese Index"
 msgstr "Índice de Japón"
 
 #: Underlying Symbol OTC_MICEX
-#, fuzzy
-#| msgid "Russian 10 Index"
 msgid "Russian 10 OTC Index"
-msgstr "Índice Ruso 10"
+msgstr "Índice OTC Ruso 10"
 
 #: Underlying Symbol OTC_SHSZ300
-#, fuzzy
-#| msgid "Shenzhen 300 Index"
 msgid "Shenzhen 300 OTC Index"
-msgstr "Índice Shenzhen 300"
+msgstr "Índice OTC Shenzhen 300"
 
 #: Underlying Symbol IBEX35
 msgid "Spanish Index"
@@ -15140,10 +15065,8 @@ msgstr "Índice España"
 
 # Start of extra_translations
 #: Underlying Symbol OTC_DFMGI
-#, fuzzy
-#| msgid "Dubai Index"
 msgid "Dubai OTC Index"
-msgstr "Índice Dubai"
+msgstr "Índice OTC Dubai"
 
 #: Underlying Symbol SPTSX60
 msgid "Canadian Index"
@@ -15167,10 +15090,8 @@ msgid "Shenzhen Index"
 msgstr "Índice Shenzhen"
 
 #: Underlying Symbol OTC_NIFTY
-#, fuzzy
-#| msgid "Indian 50 Index"
 msgid "Indian 50 OTC Index"
-msgstr "Índice India 50"
+msgstr "Índice OTC India 50"
 
 #: Underlying Symbol ADSMI
 msgid "Abu Dhabi Index"
@@ -15181,20 +15102,16 @@ msgid "Istanbul Index"
 msgstr "Índice Estambul"
 
 #: Underlying Symbol OTC_ISEQ
-#, fuzzy
-#| msgid "Irish Index"
 msgid "Irish OTC Index"
-msgstr "Índice Irlanda"
+msgstr "Índice OTC Irlanda"
 
 #: Underlying Symbol BFX
 msgid "Belgian Index"
 msgstr "Índice Bélgica"
 
 #: Underlying Symbol OTC_OMXS30
-#, fuzzy
-#| msgid "Swedish Index"
 msgid "Swedish OTC Index"
-msgstr "Índice Suecia"
+msgstr "Índice OTC Suecia"
 
 #: Underlying Symbol ISEQ
 msgid "Irish Index"
@@ -15225,17 +15142,13 @@ msgid "Jakarta Index"
 msgstr "Índice Jakarta"
 
 #: Underlying Symbol OTC_KOSPI2
-#, fuzzy
-#| msgid "Korean Index"
 msgid "Korean OTC Index"
-msgstr "Índice de Corea"
+msgstr "Índice OTC de Corea"
 
 # Start of extra_translations
 #: Underlying Symbol OTC_KWSEIDX
-#, fuzzy
-#| msgid "Kuwait Index"
 msgid "Kuwait OTC Index"
-msgstr "Índice Kuwait"
+msgstr "Índice OTC de Kuwait"
 
 #: Underlying Symbol SYNFTSE
 msgid "UK Smart Index"
@@ -15254,20 +15167,16 @@ msgid "Australian Index"
 msgstr "Índice Australia"
 
 #: Underlying Symbol OTC_JCI
-#, fuzzy
-#| msgid "Jakarta Index"
 msgid "Jakarta OTC Index"
-msgstr "Índice Jakarta"
+msgstr "Índice OTC Jakarta"
 
 #: Underlying Symbol OMXS30
 msgid "Swedish Index"
 msgstr "Índice Suecia"
 
 #: Underlying Symbol OTC_N100
-#, fuzzy
-#| msgid "Euro 100 Index"
 msgid "Euro 100 OTC Index"
-msgstr "Índice Euro 30"
+msgstr "Índice OTC Euro 100"
 
 #: Underlying Symbol SYNDJI
 msgid "Wall Street Smart Index"
@@ -15291,16 +15200,12 @@ msgid "Dutch Smart Index"
 msgstr "Índice Smart Holanda"
 
 #: Underlying Symbol OTC_OBX
-#, fuzzy
-#| msgid "Norwegian Index"
 msgid "Norwegian OTC Index"
-msgstr "Índice de Noruega"
+msgstr "Índice OTC Noruega"
 
 #: Underlying Symbol OTC_SASEIDX
-#, fuzzy
-#| msgid "Saudi Arabia Index"
 msgid "Saudi Arabia OTC Index"
-msgstr "Índice Arabia Saudí"
+msgstr "Índice OTC Arabia Saudí"
 
 #: Underlying Symbol SSMI
 msgid "Swiss Index"
@@ -15327,16 +15232,12 @@ msgid "Euro 100 Index"
 msgstr "Índice Euro 30"
 
 #: Underlying Symbol OTC_N150
-#, fuzzy
-#| msgid "Euro 150 Index"
 msgid "Euro 150 OTC Index"
-msgstr "Índice Euro 150"
+msgstr "Índice OTC Euro 150"
 
 #: Underlying Symbol OTC_SPTSX60
-#, fuzzy
-#| msgid "Canadian Index"
 msgid "Canadian OTC Index"
-msgstr "Índice Canadá"
+msgstr "Índice OTC Canadá"
 
 #: Underlying Symbol SYNSPC
 msgid "US Smart Index"
@@ -16619,10 +16520,8 @@ msgid "Represent a single day of trading with different market factors. They are
 msgstr "Representan un único día de operaciones en mercados. Se restablecen al inicio de cada día de negociación (12:00 GMT)."
 
 #: Translation for sub market name
-#, fuzzy
-#| msgid "Indices"
 msgid "OTC Indices"
-msgstr "Índices"
+msgstr "Índices OTC"
 
 #: Translation for sub market name
 msgid "Europe/Africa"
@@ -17105,6 +17004,68 @@ msgstr "Pago de %1 %2 si %3 sale fuera del rango de %7 a %6 hasta el %5."
 #: Translation for contract type description (UPORDOWN - intraday)
 msgid "%1 %2 payout if %3 goes outside %7 and %6 through %5 after %4."
 msgstr "Pago de %1 %2 si %3 sale fuera del rango de %7 a %6 hasta el %5 después de %4."
+
+#~ msgid ""
+#~ "<p style='font-weight: bold; margin-bottom: 0;'>Thanks for signing up for a virtual account!</p>\n"
+#~ "<p style='margin-bottom: 0; margin-top: 0;'>Enter the following verification token into the form to %1:\n"
+#~ "  <p style='margin-bottom: 0; margin-top: 0;'>\n"
+#~ "    <span style='background: #f2f2f2; padding: 10px;'>%2</span>\n"
+#~ "  </p>\n"
+#~ "</p>\n"
+#~ "<p style='margin-top: 0;'>Enjoy trading with us on Binary.com.</p>\n"
+#~ msgstr ""
+#~ "<p style='font-weight: bold; margin-bottom: 0;'>¡Gracias por crear una cuenta virtual!</p>\n"
+#~ "<p style='margin-bottom: 0; margin-top: 0;'>Introduzca el siguiente token de verificación en el formulario para %1:\n"
+#~ "  <p style='margin-bottom: 0; margin-top: 0;'>\n"
+#~ "    <span style='background: #f2f2f2; padding: 10px;'>%2</span>\n"
+#~ "  </p>\n"
+#~ "</p>\n"
+#~ "<p style='margin-top: 0;'>Disfrute comerciando con nosotros en Binary.com.</p>\n"
+
+#~ msgid "As part of a re-branding exercise, the Random Indices are renamed to Volatility Indices. The indices remain the same and you may continue trading as usual. <a href=\"https://blog.binary.com/random-indices-renamed-to-volatility-indices/\" target=\"_blank\">Read more</a>."
+#~ msgstr "Como parte de un ejercicio de re-branding, los Índices Random son renombrados a Índices de Volatilidad. Los índices siguen siendo los mismos y usted puede continuar operando como siempre.<a href=\"https://blog.binary.com/random-indices-renamed-to-volatility-indices/\" target=\"_blank\">Leer más</a>."
+
+#~ msgid "Authentication of your account is not required at this time.  We will notify you by email if authentication is required."
+#~ msgstr "La autenticación de su cuenta no es necesaria en este momento. Le notificaremos por correo electrónico si se requiere autenticación."
+
+#~ msgid "Before you proceed..."
+#~ msgstr "Antes de continuar..."
+
+#~ msgid "Current photocard Driving Licence (Provisional or Full)"
+#~ msgstr "Tarjeta fotográfica del carnet de conducir (provisional o permanente) actual"
+
+#~ msgid "Current signed Passport OR"
+#~ msgstr "Pasaporte firmado actual O"
+
+#~ msgid "For added security protection against unauthorised withdrawals, an email containing a secure link to the withdrawals page has been sent to your email %1. Please check your email to access this link."
+#~ msgstr "Para la protección adicional contra retiros no autorizados, un correo electrónico con un enlace seguro a la página de retiros ha sido enviado a su correo electrónico %1. Por favor revise su correo electrónico para acceder a este enlace."
+
+#~ msgid "However, in order to increase your withdrawal limits, you are kindly requested to follow the instructions below."
+#~ msgstr "No obstante, para poder aumentar sus límites de retiro, se le solicita que siga las instrucciones a continuación."
+
+#~ msgid "ORIGINAL Bank/Credit Union/Building Society/Credit/Debit Card statement or passbook (within last 3 months)"
+#~ msgstr "Libreta de banco/unión de crédito/sociedad constructora o extracto de tarjeta de crédito/débito ORIGINAL (de los últimos 3 meses)"
+
+#~ msgid "ORIGINAL Utility bill (within last 3 months) ; or"
+#~ msgstr "Factura de servicios públicos ORIGINAL (de los últimos 3 meses), o"
+
+#~ msgid "Our email address is %1."
+#~ msgstr "Nuestra dirección de correo electrónico es %1."
+
+#~ msgid "There are no available Payment Agents."
+#~ msgstr "No hay agentes de pagos disponibles."
+
+#~ msgid "To fully authenticate your account, please email scanned copies of the document listed below."
+#~ msgstr "Para autenticar por completo su cuenta, envíe por correo electrónico copias digitalizadas del documento solicitado a continuación."
+
+#~ msgid "Withdrawal Verification"
+#~ msgstr "Verificación de Retiro"
+
+#~ msgid "Your account is fully authenticated. You can view your <a class=\"pjaxload\" href=\"%1\">trading limits here</a>."
+#~ msgstr "Su cuenta está totalmente autenticada. Usted puede ver sus límites de operaciones <a class=\"pjaxload\" href=\"%1\">aquí</a>."
+
+#~ msgid "Your account is fully operational and you may begin depositing money and buying contracts."
+#~ msgstr "Su cuenta es totalmente operativa y usted puede comenzar a depositar dinero y comprar contratos."
 
 #~ msgid "6 - 25 characters."
 #~ msgstr "6 a 25 caracteres."
