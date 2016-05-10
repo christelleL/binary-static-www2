@@ -783,7 +783,6 @@ function displayTooltip(market, symbol){
       tip.hide();
     }
     if (market.match(/^otc_index/) || symbol.match(/^OTC_/) || market.match(/otc_stock/) || markets.by_symbol(symbol).submarket.name.match(/otc_stock/)){
-    if (market.match(/^otc_index/) || symbol.match(/^OTC_/) || market.match(/^otc_stock/)){    
         tip.show();
         tip.setAttribute('target','/get-started/otc-indices-stocks');
     }
