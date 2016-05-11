@@ -161,7 +161,7 @@ var Highchart = (function() {
         });
         var subtitle = chart.subtitle.element;
         var subtitle_length = chart.subtitle.element.childNodes.length;
-        if (sell_spot_time) {
+        if (sell_time && sell_time < end_time) {
           var textnode = document.createTextNode(" Sell time ");
           for (i = 0; i < chart.subtitle.element.childNodes.length; i++) {
             if (/End time/.test(chart.subtitle.element.childNodes[i].nodeValue)) {
