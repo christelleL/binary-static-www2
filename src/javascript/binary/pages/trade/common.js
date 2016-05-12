@@ -777,7 +777,7 @@ function displayTooltip(market, symbol){
       app.hide();
       tip.hide();
     }
-    if (market.match(/^otc_index/) || symbol.match(/^OTC_/)){
+    if (market.match(/^otc_index/) || symbol.match(/^OTC_/) || market.match(/^otc_stock/)){
         tip.show();
         tip.setAttribute('target','/get-started/otc-indices-stocks');
     }
