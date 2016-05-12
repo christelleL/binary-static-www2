@@ -481,7 +481,7 @@ ul.checked {
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
-    
+
     position: absolute;
     z-index: 1;
 }
@@ -496,4 +496,8 @@ ul.checked {
 
 .no-padding {
     padding: 0px !important;
+}
+
+_:-ms-fullscreen, :root #content-holder {
+    height: 100%;
 }
